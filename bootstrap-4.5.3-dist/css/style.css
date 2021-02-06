@@ -5,8 +5,29 @@ body {
 
 .alert-container {}
 
-.callout-container {}
+.callout-container {
+    height: 100vh;
+    background: url("../img/bg.jpeg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
 
 .quotes-container {}
 
 .features-container {}
+
+/*Jumbotron*/
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
