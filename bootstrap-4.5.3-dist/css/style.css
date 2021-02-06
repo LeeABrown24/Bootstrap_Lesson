@@ -25,9 +25,30 @@ body {
 
 /*Jumbotron*/
 
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron small {
+    font-size: 100%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #fff;
+}
 .jumbotron-header {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
-    
+
+}
+
+.block-divider {
+    width: 850px;
+    height: 5px;
+    border: 0;
+    background-color: #ffc107;
 }
