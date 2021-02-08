@@ -5,18 +5,19 @@ body {
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
-    z-index: 1;
 }
 
 .site-wide-alert {
-    border-radius: 0;
-    margin-bottom: 0;
+    color: #544600;
+    background-color: #eec802;
+    border-color: #eec802;
     padding: 5px 15px;
-    background-color: rgb(214, 201, 79);
-    border-color: rgb(214, 201, 79);
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
 }
 
-.callout-container {
+/*.callout-container {
     height: 100vh;
     background: url("../img/bg.jpeg") no-repeat bottom right fixed; 
     -webkit-background-size: cover;
@@ -24,6 +25,22 @@ body {
     -o-background-size: cover;
     background-size: cover;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}*/
+
+.callout-container {
+    height: 100vh;
+
+    background: url("../img/bg.jpeg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,7 +61,7 @@ body {
 
 .features-container {}
 
-/*Block-dividers*/
+/*Block-dividers
 
 .block-divider {
     width: 75px;
@@ -58,7 +75,7 @@ body {
 
 .block-divider--short {
     width: 35px;
-}
+}*/
 
 /*Navbar*/
 
@@ -68,6 +85,7 @@ body {
     left: 0;
     padding-left: 0;
     padding-right: 0;
+    z-index: 1;
 }
 
 .navbar {
@@ -75,7 +93,6 @@ body {
     border: 0;
     width: 100%;
     background-color: rgba(0,0,0,0.25);
-    z-index: 1;
 }
 
 .navbar .navbar-toggler {
@@ -107,10 +124,26 @@ body {
     color: #fff;
 }
 .jumbotron-header {
-    color: white;
+    color: #fff;
     font-weight: bold;
     margin-bottom: 30px;
 
+}
+
+/*Block-dividers*/
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+}
+
+.block-divider--orange {
+    background-color: #ffc107;
+}
+
+.block-divider--short {
+    width: 35px;
 }
 
 /*Buttons*/
