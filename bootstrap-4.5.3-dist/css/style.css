@@ -246,4 +246,5 @@ body {
 .modal-body .btn--submit {
     color: #f05f40;
     border-radius: 23px;
+    font-weight: bold;
 }
