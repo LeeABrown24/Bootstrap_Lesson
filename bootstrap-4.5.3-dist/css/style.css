@@ -205,7 +205,26 @@ body {
 
 /*Modal*/
 
+h5 {
+    color: #fff;
+    background-color: #f05f40;
+}
+
+.modal-content {
+    background-color: #f05f40;
+}
+
+.modal .close span {
+    color: #fff;
+    opacity: 1;
+}
+
+.modal-body {
+    color: #fff;
+    background-color: #f05f40;
+}
+
 .modal-body .btn--submit {
     color: #fff;
     border-radius: 23px;
-} 
+}
