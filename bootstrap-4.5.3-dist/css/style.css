@@ -69,6 +69,10 @@ body {
     margin-bottom: 25px;
 }
 
+.features .page-header {
+    margin-bottom: 25px;
+}
+
 /*Navbar*/
 
 .navalert-container {
@@ -193,3 +197,15 @@ body {
     margin-top: 10px;
     color: #f05f40;
 }
+
+.feature .btn:hover {
+    background-color: #eeeeee;
+    color: #ff5e3a;
+}
+
+/*Modal*/
+
+.modal-body .btn--submit {
+    color: #fff;
+    border-radius: 23px;
+} 
